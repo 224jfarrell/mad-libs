@@ -1,0 +1,19 @@
+html{
+    overflow: hidden;
+}
+html, body{
+    background-image: linear-gradient(112.5deg, #E8D5B0 25%, #B69691 100%);
+}
+#footer{
+    background-image: linear-gradient(to bottom, #00000000 4.167%, #443F36 16.67%, #0b0b09 50%);
+    height: 270px;
+}
+.text-right{
+    text-align: right;
+}
+input{
+    height: 34.8px;
+}
+h4:not(input){
+    line-height: 34.8px;
+}
