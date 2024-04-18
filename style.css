@@ -17,3 +17,39 @@ input{
 h4:not(input){
     line-height: 34.8px;
 }
+.to-hide{
+    animation-name: hide;
+    animation-duration: 430ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.to-show{
+    animation-name: show;
+    animation-duration: 430ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: hidden;
+    opacity: 0%;
+}
+@keyframes hide {
+    0%{
+        opacity: 100%;
+    }
+    90%{
+        opacity: 0%;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes show {
+    0%{
+        display: inherit;
+    }
+    10%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
