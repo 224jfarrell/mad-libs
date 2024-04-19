@@ -4,7 +4,7 @@ html{
 html, body{
     background-image: linear-gradient(112.5deg, #E8D5B0 25%, #B69691 100%);
 }
-#footer{
+#t{
     background-image: linear-gradient(to bottom, #00000000 4.167%, #443F36 16.67%, #0b0b09 50%);
     height: 270px;
 }
@@ -52,4 +52,7 @@ h4:not(input){
     100%{
         opacity: 100%;
     }
+}
+#q{
+    display: block;
 }

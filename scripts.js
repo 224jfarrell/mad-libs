@@ -16,6 +16,9 @@ let O = document.getElementById('o');
 let P, Q, R, S, T, U, V, W, X, Y, Z;
 let b = document.getElementById('p');
 let c = document.getElementById('q');
+let d = document.getElementById('r');
+let e = document.getElementById('s');
+let f = d.clientHeight + e.clientHeight;
 
 
 function submit(){
@@ -46,6 +49,6 @@ ${Z}`;
     N.classList.add('to-show');
     O.innerText = a;
     b.disabled = true;
-    c.style.height = (window.outerHeight - parseFloat(document.getElementById('content').height) + "px");
+    c.style.height = (window.outerHeight - parseFloat(f) + 166) + "px";
 }
 
